@@ -1,0 +1,7 @@
+Conclusiones:
+
+1.- A partir del test se pudo comprobar la efectiva operancia del API testeada cumpliendo con cada uno de las acciones REST
+que se especifican
+
+Observacion
+1.- Hay ciertos metodos del API (PUT /user/{username}) que tienen un comportamiento inadecuado puesto a que se tiene que realizar una modificacion por username pero si no se pasa un id en el payload crea un nuevo usuario en vez de actualizarlo.
